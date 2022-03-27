@@ -1,356 +1,436 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
   <head>
-    <title>EmilyHealthServices</title>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Emily Gatwiri Health Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
     <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+      name="keywords"
+      content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive"
     />
+    <meta name="author" content="FREEHTML5.CO" />
+
+    <!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		Emily Gatwiri Health Services
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- Google Fonts -->
     <link
+      href="http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic|Roboto:400,300,700"
       rel="stylesheet"
       type="text/css"
-      href="style/css/style.css"
-      media="all"
     />
-    <link rel="stylesheet" type="text/css" href="style/css/media-queries.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="style/js/player/mediaelementplayer.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300italic,300,700,700italic|Open+Sans+Condensed:300,700"
-    />
-    <!--[if IE 8]>
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href="style/css/ie8.css"
-        media="all"
-      />
+    <!-- Animate -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Icomoon -->
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+      <script src="js/respond.min.js"></script>
     <![endif]-->
-    <!--[if IE 9]>
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href="style/css/ie9.css"
-        media="all"
-      />
-    <![endif]-->
-    <script src="style/js/jquery-1.7.2.min.js"></script>
-    <script src="style/js/ddsmoothmenu.js"></script>
-    <script src="style/js/retina.js"></script>
-    <script src="style/js/selectnav.js"></script>
-    <script src="style/js/jquery.masonry.min.js"></script>
-    <script src="style/js/jquery.fitvids.js"></script>
-    <script src="style/js/jquery.backstretch.min.js"></script>
-    <script src="style/js/mediaelement.min.js"></script>
-    <script src="style/js/mediaelementplayer.min.js"></script>
-    <script src="style/js/jquery.dcflickr.1.0.js"></script>
-    <script src="style/js/twitter.min.js"></script>
-    <script>
-      $.backstretch("style/images/bg/1.jpg");
-    </script>
   </head>
   <body>
-    <div class="scanlines"></div>
-    <div class="header-wrapper opacity">
-      <div class="header">
-        <div class="logo">
-          <p>EmilyHealthServices</p>
-          <div id="menu-wrapper">
-            <div id="menu" class="menu">
-              <ul id="tiny">
-                <li class="active">
-                  <a href="index.html">Blog</a>
-                  <ul>
-                    <li><a href="post.html">Blog Post</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="page-with-sidebar.html">Pages</a>
-                  <ul>
-                    <li>
-                      <a href="page-with-sidebar.html">Page With Sidebar</a>
-                    </li>
-                    <li><a href="full-width.html">Full Width</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="typography.html">Styles</a>
-                  <ul>
-                    <li><a href="typography.html">Typography</a></li>
-                    <li><a href="columns.html">Columns</a></li>
-                  </ul>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="clear"></div>
-        </div>
-      </div>
-      <div class="wrapper">
-        <div class="intro">
+    <div id="fh5co-offcanvas">
+      <a href="#" class="fh5co-close-offcanvas js-fh5co-close-offcanvas"
+        ><span><i class="icon-cross3"></i> <span>Close</span></span></a
+      >
+      <div class="fh5co-bio">
+        <figure>
+          <img
+            src="images/cartoon-2027771_1280.png"
+            alt="Female Doctor"
+            class="img-responsive"
+          />
+        </figure>
+        <h3 class="heading">About Us</h3>
+        <h2>Emily Gatwiri Health Services</h2>
+        <p>
           EmilyHealthServices is a blog dedicated to providing accurate and
-          up-to-date information to assist you stay informed about... <br />
-          <br />
-
-          We strictly adhere to the Public Health Food Safety Guidelines set
-          forth by the Republic of Kenya Food Safety Laws as well as
-          International Food Safety Guidelines.
-        </div>
-        <ul class="social">
-          <li><a class="facebook" href="#"></a></li>
-          <li><a class="twitter" href="#"></a></li>
+				up-to-date information to assist you stay informed about Human Life, Animal Life, Evolution of Life and Ecology of Life.<br />
+        </p>
+        <ul class="fh5co-social">
+          <li>
+            <a href="#"><i class="icon-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="icon-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="icon-instagram"></i></a>
+          </li>
         </ul>
-        <div class="blog-wrap">
-          <div class="blog-grid">
-            <div class="post format-image box">
-              <div class="frame">
-                <a href="post.html">
-                  <img src="style/images/art/human_life.png" alt="" />
-                </a>
-              </div>
-              <h2 class="title"><a href="post.html">Human Life</a></h2>
-              <p>
-                Blog 1 Content Goes Here
-              </p>
-              <div class="details">
-                <span class="icon-image"
-                  ><a href="#">Day Month 2022</a></span
-                >
-                <span class="likes"><a href="#" class="likeThis">44</a></span>
-                <span class="comments"><a href="#">3</a></span>
-              </div>
-            </div>
-            <div class="post format-quote box">
-              <blockquote>
-                Preview of the article<cite>Day Month 2022</cite>
-              </blockquote>
-              <div class="details">
-                <span class="icon-quote"
-                  ><a href="#">Day Month 2022</a></span
-                >
-                <span class="likes"><a href="#" class="likeThis">27</a></span>
-                <span class="comments"><a href="#">4</a></span>
-              </div>
-            </div>
-            <!-- <div class="post format-video box">
-            <div class="video frame">
-              <iframe
-                src="http://player.vimeo.com/video/40558553?title=0&byline=0&portrait=0"
-                width="500"
-                height="281"
-                frameborder="0"
-                webkitAllowFullScreen
-                mozallowfullscreen
-                allowfullscreen
-              ></iframe>
-            </div>
-            <h2 class="title"><a href="post.html">Fragments of Iceland</a></h2>
-            <p>
-              Blog Post Content
-            </p>
-            <div class="details">
-              <span class="icon-video"><a href="#">Day Month 2022</a></span>
-              <span class="likes"><a href="#" class="likeThis">18</a></span>
-              <span class="comments"><a href="#">1</a></span>
-            </div>
-          </div>
-          <div class="post format-audio box">
-            <div class="audio-wrapper">
-              <div class="vinyl">
-                <dl>
-                  <dt class="art">
-                    <img
-                      src="style/images/vinyl.png"
-                      alt=""
-                      class="highlight"
-                    />
-                    <img src="style/images/art/artwork.png" alt="" />
-                  </dt>
-                  <dd class="song">
-                    <div class="icon-song"></div>
-                    Om Du Möter Varg
-                  </dd>
-                  <dd class="artist">
-                    <div class="icon-artist"></div>
-                    Detektivbyrån
-                  </dd>
-                  <dd class="album">
-                    <div class="icon-album"></div>
-                    Wermland
-                  </dd>
-                </dl>
-              </div>
-              <div class="clear"></div>
-              <div class="audio">
-                <audio
-                  controls=""
-                  preload="none"
-                  src="http://elemisdesign.com/files/omdumotervarg.mp3"
-                ></audio>
-              </div>
-            </div>
-            <p>
-              <strong>Detektivbyrån</strong> (&#8220;The Detective
-              Agency&#8221;) was a <a href="#">Swedish</a>
-              <a href="#">electronica</a> and <a href="#">folk music</a> trio
-              from <a href="#">Gothenburg</a>. The group consisted of Anders
-              &#8220;Flanders&#8221; Molin (<a href="#">accordion</a>,
-              <a href="#">music box</a>), Martin &#8220;MacGyver&#8221; Molin
-              (<a href="#">glockenspiel</a>, traktofon, toy
-              <a href="#">piano</a>, <a href="#">Theremin</a>) and Jon Nils
-              Emanuel Ekström <a href="#">drums</a>, <a href="#">sound box</a>,
-              <a href="#">small bells</a>.
-            </p>
-            <div class="details">
-              <span class="icon-audio"><a href="#">Day Month 2022</a></span>
-              <span class="likes"><a href="#" class="likeThis">20</a></span>
-              <span class="comments"><a href="#">1</a></span>
-            </div>
-          </div> -->
-          <div class="post format-standard box">
-            <h2 class="title"><a href="post.html">Evolution of Life</a></h2>
-            <p>
-              Blog Content Goes Here
-            </p>
-            <p>
-              Blog Content Goes Here
-            </p>
-            <div class="details">
-              <span class="icon-standard"><a href="#">Day Month 2022</a></span>
-              <span class="likes"><a href="#" class="likeThis">11</a></span>
-              <span class="comments"><a href="#">0</a></span>
-            </div>
-          </div>
-          <div class="post format-link box">
-            <h2 class="title">
-              <a href="#"
-                >Ecology of Life<span class="arrow">&rarr;</span></a
-              >
-            </h2>
-            <p>
-              Blog Content Goes Here
-            </p>
-            <div class="details">
-              <span class="icon-link"><a href="#">Day Month 2022</a></span>
-              <span class="likes"><a href="#" class="likeThis">10</a></span>
-              <span class="comments"><a href="#">0</a></span>
-            </div>
-          </div>
-          <div class="post format-chat box">
-            <h2 class="title"><a href="post.html">Doctor and patient conversation</a></h2>
-            <ul>
-              <li>
-                <strong>Doctor:</strong> conversation&#8230;
-              </li>
-              <li>
-                <strong>Patient:</strong> Doctor! I&#8217; conversation
-              </li>
-              <li><strong>Doctor:</strong> I&#8217;m your Doctor!</li>
-            </ul>
-            <div class="details">
-              <span class="icon-chat"><a href="#">Day Month 2022</a></span>
-              <span class="likes"><a href="#" class="likeThis">5</a></span>
-              <span class="comments"><a href="#">0</a></span>
-            </div>
-          </div>
-        </div>
       </div>
-      <div id="navigation">
-        <div class="nav-previous">
-          <a href="#"><span class="meta-nav-prev">&larr; Older posts</span></a>
+
+      <div class="fh5co-menu">
+        <div class="fh5co-box">
+          <h3 class="heading">Blogs</h3>
+          <ul>
+            <li><a href="#">Human Life</a></li>
+            <li><a href="#">Animal Life</a></li>
+            <li><a href="#">Evolution of Life</a></li>
+            <li><a href="#">Ecology Life</a></li>
+          </ul>
         </div>
-      </div>
-    </div>
-    <div class="footer-wrapper">
-      <div id="footer" class="four">
-        <div id="first" class="widget-area">
-          <div class="widget widget_search">
-            <h3 class="widget-title">Search</h3>
-            <form class="searchform" method="get" action="#">
+        <div class="fh5co-box">
+          <h3 class="heading">Search</h3>
+          <form action="#">
+            <div class="form-group">
               <input
                 type="text"
-                name="s"
-                value="type and hit enter"
-                onFocus="this.value=''"
-                onBlur="this.value='type and hit enter'"
+                class="form-control"
+                placeholder="Type a keyword"
               />
-            </form>
-          </div>
-          <div class="widget widget_archive">
-            <h3 class="widget-title">Archives</h3>
-            <ul>
-              <li><a href="#">Human Life</a> (6)</li>
-              <li><a href="#">Animal Life</a> (2)</li>
-              <li><a href="#">Evolution of Life</a> (2)</li>
-              <li><a href="#">Ecology Life</a> (4)</li>
-            </ul>
-          </div>
-        </div>
-        <div id="second" class="widget-area">
-          <div id="twitter-2" class="widget widget_twitter">
-            <h3 class="widget-title">Twitter</h3>
-            <div id="twitter-wrapper">
-              <div id="twitter"></div>
-              <span class="username"
-                ><a href="#">&rarr; Follow @emily_health_services</a></span
-              >
             </div>
-          </div>
+          </form>
         </div>
-        <div id="third" class="widget-area">
-          <div id="example-widget-3" class="widget example">
-            <h3 class="widget-title">Popular Posts</h3>
-            <ul class="post-list">
-              <li>
-                <div class="frame">
-                  <a href="#"><img src="style/images/human_life.png" alt="" /></a>
-                </div>
-                <div class="meta">
-                  <h6><a href="#">Blog Post Number</a></h6>
-                  <em>Day Month 2022</em>
-                </div>
-              </li>
-              <li>
-                <div class="frame">
-                  <a href="#"><img src="style/images/art/animal_life.png" alt="" /></a>
-                </div>
-                <div class="meta">
-                  <h6><a href="#">Blog Post Number</a></h6>
-                  <em>Day Month 2022</em>
-                </div>
-              </li>
-              <li>
-                <div class="frame">
-                  <a href="#"><img src="style/images/art/Evolution.png" alt="" /></a>
-                </div>
-                <div class="meta">
-                  <h6><a href="#">Blog Post Number</a></h6>
-                  <em>Day Month 2022</em>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- <div id="fourth" class="widget-area">
-          <div class="widget">
-            <h3 class="widget-title">Flickr</h3>
-            <ul class="flickr-feed"></ul>
-          </div>
-        </div> -->
       </div>
     </div>
-    <div class="site-generator-wrapper">
-      <div class="site-generator">
-        Design by <a href="http://elemisfreebies.com">elemis</a>.
+    <!-- END #fh5co-offcanvas -->
+    <header id="fh5co-header">
+      <div class="container-fluid">
+        <div class="row">
+          <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+          <ul class="fh5co-social">
+            <li>
+              <a href="#"><i class="icon-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="icon-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="icon-instagram"></i></a>
+            </li>
+          </ul>
+          <div class="col-lg-12 col-md-12 text-center">
+            <h1 id="fh5co-logo">
+              <a href="index.html">Emily Gatwiri Health Services <!-- <sup>TM</sup> -->  </a>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END #fh5co-header -->
+    <div class="container-fluid">
+      <div class="row fh5co-post-entry">
+        <article
+          class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box"
+        >
+          <figure>
+            <a href="single.html"
+              ><img src="images/stethoscope-4280497_1920.jpg" alt="A health profession holding a stethoscope" class="img-responsive"
+            /></a>
+          </figure>
+          <span class="fh5co-meta"><a href="single.html">Human Life</a></span>
+          <h2 class="fh5co-article-title">
+            <a href="single.html">Blog 1 Title</a>
+          </h2>
+          <span class="fh5co-meta fh5co-date">March 26th, 2022</span>
+        </article>
+        <article
+          class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box"
+        >
+          <figure>
+            <a href="single.html"
+              ><img src="images/bed-1839564_1920.jpg" alt="A smiling baby child on the bed" class="img-responsive"
+            /></a>
+          </figure>
+          <span class="fh5co-meta"><a href="single.html">Human Life</a></span>
+          <h2 class="fh5co-article-title">
+            <a href="single.html">Blog 2 Title</a>
+          </h2>
+          <span class="fh5co-meta fh5co-date">March 26th, 2022</span>
+        </article>
+        <div class="clearfix visible-xs-block"></div>
+        <article
+          class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box"
+        >
+          <figure>
+            <a href="single.html"
+              ><img src="images/dolphin-203875_1920.jpg" alt="Image of a dolphin" class="img-responsive"
+            /></a>
+          </figure>
+          <span class="fh5co-meta"><a href="single.html">Animal Life </a></span>
+          <h2 class="fh5co-article-title">
+            <a href="single.html">Blog 3 Title</a>
+          </h2>
+          <span class="fh5co-meta fh5co-date">March 16th, 2022</span>
+        </article>
+        <article
+          class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box"
+        >
+          <figure>
+            <a href="single.html"
+              ><img src="images/elephant-4929027_1920.jpg" alt="Image with an elephant, gazelles and other wildlife" class="img-responsive"
+            /></a>
+          </figure>
+          <span class="fh5co-meta"><a href="single.html">Animal Life</span>
+          <h2 class="fh5co-article-title">
+            <a href="single.html">Blog 4 Title</a>
+          </h2>
+          <span class="fh5co-meta fh5co-date">March 26th, 2022</span>
+        </article>
+        <div
+          class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"
+        ></div>
+        <article
+          class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box"
+        >
+          <figure>
+            <a href="single.html"
+              ><img src="images/evolution-7074064_1920.jpg" alt="Image of human evolution" class="img-responsive"
+            /></a>
+          </figure>
+          <span class="fh5co-meta"><a href="single.html">Evolution of Life</a></span>
+          <h2 class="fh5co-article-title">
+            <a href="single.html">Blog 5 Title</a>
+          </h2>
+          <span class="fh5co-meta fh5co-date">March 16th, 2022</span>
+        </article>
+        <article
+          class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box"
+        >
+          <figure>
+            <a href="single.html"
+              ><img src="images/roses-3385267_1920.jpg" alt="Image of roses evolution spring" class="img-responsive"
+            /></a>
+          </figure>
+          <span class="fh5co-meta"
+            ><a href="single.html">Evolution of Life</a></span
+          >
+          <h2 class="fh5co-article-title">
+            <a href="single.html">Blog 6 Title</a>
+          </h2>
+          <span class="fh5co-meta fh5co-date">March 16th, 2022</span>
+        </article>
+        <div class="clearfix visible-xs-block"></div>
+        <article
+          class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box"
+        >
+          <figure>
+            <a href="single.html"
+              ><img src="images/environmental-protection-326923_1920.jpg" alt="Image of a tree" class="img-responsive"
+            /></a>
+          </figure>
+          <span class="fh5co-meta"
+            ><a href="single.html">Ecology of Life</a></span
+          >
+          <h2 class="fh5co-article-title">
+            <a href="single.html">Blog 7 Title</a>
+          </h2>
+          <span class="fh5co-meta fh5co-date">March 6th, 2022</span>
+        </article>
+        <article
+          class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box"
+        >
+          <figure>
+            <a href="single.html"
+              ><img src="images/rice-plantation-1822444_1920.jpg" alt="Image of rice plantation in Thailand" class="img-responsive"
+            /></a>
+          </figure>
+          <span class="fh5co-meta"
+            ><a href="single.html">Ecology of Life</a></span
+          >
+          <h2 class="fh5co-article-title">
+            <a href="single.html">Blog 8 Title</a>
+          </h2>
+          <span class="fh5co-meta fh5co-date">March 6th, 2022</span>
+        </article>
+        <div
+          class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"
+        ></div>
+
+        <article
+          class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box"
+        >
+          <figure>
+            <a href="single.html"
+              ><img src="images/nature-3289812_1920.jpg" alt="Image OF nature earth sustainability and leaves" class="img-responsive"
+            /></a>
+          </figure>
+          <span class="fh5co-meta"
+            ><a href="single.html">Ecology of Life</a></span
+          >
+          <h2 class="fh5co-article-title">
+            <a href="single.html">Blog 9 Title</a>
+          </h2>
+          <span class="fh5co-meta fh5co-date">March 6th, 2022</span>
+        </article>
+        <article
+          class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box"
+        >
+          <figure>
+            <a href="single.html"
+              ><img src="images/great-white-pelicans-5791396_1920.jpg" alt="Image of 5 great white pelicans birds standing on rock" class="img-responsive"
+            /></a>
+          </figure>
+          <span class="fh5co-meta"
+            ><a href="single.html">Animal Life</a></span
+          >
+          <h2 class="fh5co-article-title">
+            <a href="single.html">Blog 10 Title</a>
+          </h2>
+          <span class="fh5co-meta fh5co-date">March 6th, 2016</span>
+        </article>
+        <div class="clearfix visible-xs-block"></div>
+        <article
+          class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box"
+        >
+          <figure>
+            <a href="single.html"
+              ><img src="images/salmon-518032_1920.jpg" alt="Image of salmon fish seafood veggies salad" class="img-responsive"
+            /></a>
+          </figure>
+          <span class="fh5co-meta"
+            ><a href="single.html">Human Life</a></a></span
+          >
+          <h2 class="fh5co-article-title">
+            <a href="single.html">Blog 11 Title</a>
+          </h2>
+          <span class="fh5co-meta fh5co-date">April 6th, 2022</span>
+        </article>
+        <article
+          class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box"
+        >
+          <figure>
+            <a href="single.html"
+              ><img src="images/flow-3528344_1920.jpg" alt="Image of woman drinking water in nature" class="img-responsive"
+            /></a>
+          </figure>
+          <span class="fh5co-meta"
+            ><a href="single.html">Human Life</a></span
+          >
+          <h2 class="fh5co-article-title">
+            <a href="single.html">Blog 12 Title</a>
+          </h2>
+          <span class="fh5co-meta fh5co-date">March 6th, 2022</span>
+        </article>
+        <div
+          class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"
+        ></div>
+        <article
+          class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box"
+        >
+          <figure>
+            <a href="single.html"
+              ><img src="images/massage-1790063_1920.jpg" alt="Image of a dog massaging another" class="img-responsive"
+            /></a>
+          </figure>
+          <span class="fh5co-meta"><a href="single.html">Animal Life</a></span>
+          <h2 class="fh5co-article-title">
+            <a href="single.html">Blog 13 Title</a>
+          </h2>
+          <span class="fh5co-meta fh5co-date">April 6th, 2022</span>
+        </article>
+        <article
+          class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box"
+        >
+          <figure>
+            <a href="single.html"
+              ><img src="images/roses-4321173_1920.jpg" alt="Image of roses three evolution red flower" class="img-responsive"
+            /></a>
+          </figure>
+          <span class="fh5co-meta"
+            ><a href="single.html">Evolution of Life</a></a></span
+          >
+          <h2 class="fh5co-article-title">
+            <a href="single.html">Blog 13 Title</a>
+          </h2>
+          <span class="fh5co-meta fh5co-date">April 6th, 2022</span>
+        </article>
+        <div class="clearfix visible-xs-block"></div>
+        <article
+          class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box"
+        >
+          <figure>
+            <a href="single.html"
+              ><img src="images/brain-2146817_1280.png" alt="Image of brain anatomy abstract art" class="img-responsive"
+            /></a>
+          </figure>
+          <span class="fh5co-meta"
+            ><a href="single.html">Ecology of Life</a></span
+          >
+          <h2 class="fh5co-article-title">
+            <a href="single.html">Blog 14 Title</a>
+          </h2>
+          <span class="fh5co-meta fh5co-date">April 6th, 2022</span>
+        </article>
+        <article
+          class="col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xxs-12 animate-box"
+        >
+          <figure>
+            <a href="single.html"
+              ><img src="images/father-22194_1920.jpg" alt="Image father baby portrait" class="img-responsive"
+            /></a>
+          </figure>
+          <span class="fh5co-meta"
+            ><a href="single.html">Human Life</a></a></span
+          >
+          <h2 class="fh5co-article-title">
+            <a href="single.html">Blog 15 Title</a>
+          </h2>
+          <span class="fh5co-meta fh5co-date">April 6th, 2022</span>
+        </article>
+        <div class="clearfix visible-xs-block"></div>
       </div>
     </div>
-    <script src="style/js/scripts.js"></script>
+
+    <footer id="fh5co-footer">
+      <p>
+        <small
+          >&copy; Emily Gatwiri Health Services.<br />
+          Designed by
+          <a href="http://freehtml5.co" target="_blank">FREEHTML5.co</a>
+          </small
+        >
+      </p>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
   </body>
 </html>
